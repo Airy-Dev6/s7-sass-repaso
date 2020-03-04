@@ -147,4 +147,11 @@ p.letra-grande {
 
 /* body fonts*/
 /*Headings, Call-to-actions, Header Navigation*/
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.font-raleway {
+  font-family: "Raleway", sans-serif;
+}
 /*# sourceMappingURL=style.css.map */

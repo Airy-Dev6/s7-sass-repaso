@@ -5,7 +5,13 @@ $dark-blue-testimonials: hsl(219, 30%, 18%);
 $cyan-blue: hsl(176, 68%, 64%);
 $blue: hsl(198, 60%, 50%);
 $white: hsl(0, 0%, 100%);
- /* body fonts*/ 
- //<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">//
- /*Headings, Call-to-actions, Header Navigation*/
- //<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">//
+ $raleway:  'Raleway', sans-serif;
+ $open-sans: 'Open Sans', sans-serif;
+ 
+
+ *{
+   font-family: $open-sans;
+ }
+ .font-raleway {//Headings, Call-to-actions, Header Navigation//
+   font-family: $raleway;
+ }
